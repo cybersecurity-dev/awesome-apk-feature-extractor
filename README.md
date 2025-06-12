@@ -1,4 +1,4 @@
-# Awesome [APK](https://en.wikipedia.org/wiki/Apk_(file_format)) Feature Extractor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome [APK](https://en.wikipedia.org/wiki/Apk_(file_format)) (_Android Package_) [Feature](https://en.wikipedia.org/wiki/Feature_(machine_learning)) Extractor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
 
