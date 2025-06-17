@@ -8,7 +8,7 @@
 - [Apktool](https://apktool.org/) - Apktool is a powerful, open-source command-line tool used for reverse engineering Android applications (_APK files_). It allows users to decode compiled Android resources and Dalvik bytecode (in _.dex_ files) back into their nearly original, human-readable forms, such as XML files for layouts and Smali code (_a low-level assembly-like language for the Dalvik Virtual Machine_).
 - 
 
-[🔼 Back to top](#awesome-apk-feature-extractor)
+[🔼 Back to top](#awesome-apk-feature-extractor-)
 
 ### My Other Awesome Lists
 
@@ -26,3 +26,13 @@
 * [awesome-smartcontract-feature-extractor](https://github.com/cybersecurity-dev/awesome-smartcontract-feature-extractor)
 * [awesome-vulnerability-research](https://github.com/cybersecurity-dev/awesome-vulnerability-research)
 * [awesome-vulnerable-smart-contract-scientific-research](https://github.com/cybersecurity-dev/awesome-vulnerable-smart-contract-scientific-research)
+
+### Contributing
+
+[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
+
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/cybersecurity-dev/awesome-apk-feature-extractor/graphs/contributors)!
+
+[🔼 Back to top](#awesome-apk-feature-extractor-)
