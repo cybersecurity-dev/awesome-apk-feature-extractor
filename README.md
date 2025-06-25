@@ -1,6 +1,10 @@
 # Awesome [APK](https://en.wikipedia.org/wiki/Apk_(file_format)) (_[Android Package](https://youtube.com/playlist?list=PL9V4Zu3RroiVIEtSO4i4VLlfMJqppvxvh&si=MTyY7rk1Bu5R0ncD)_) [Feature](https://en.wikipedia.org/wiki/Feature_(machine_learning)) Extractor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-
+## 📖 Contents
+- [Android Reverse Engineering Tools](#android-reverse-engineering-tools)
+- [My Other Awesome Lists](#my-other-awesome-lists)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
 
 ## Android Reverse Engineering Tools
 -
