@@ -5,7 +5,7 @@
         </a>
     </p>
 
-# Awesome [APK](https://wikipedia.org/wiki/Apk_(file_format)) (_Android Package_) [Feature](https://wikipedia.org/wiki/Feature_(machine_learning)) Extractor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# **`Awesome`** [APK](https://wikipedia.org/wiki/Apk_(file_format)) (_Android Package_) [Feature](https://wikipedia.org/wiki/Feature_(machine_learning)) Extractor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
 [![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
