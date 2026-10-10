@@ -5,6 +5,44 @@
         </a>
     </p>
 
+```mermaid
+flowchart LR
+
+    APK["APK"]
+
+    APK --> MANIFEST["Manifest"]
+
+    APK --> DEX["classes.dex"]
+
+    APK --> SO["Native Library (.so)"]
+
+    SO --> ELF["ELF Binary"]
+
+    DEX --> ACT["Activities"]
+    DEX --> SERV["Services"]
+    DEX --> REC["Receivers"]
+
+    DEX --> API["Android APIs"]
+
+    API --> CAMERA["Camera"]
+    API --> SMS["SMS"]
+    API --> LOCATION["Location"]
+    API --> CONTACTS["Contacts"]
+
+    DEX --> REFLECT["Reflection"]
+    DEX --> DEXLOAD["Dynamic Code Loading"]
+
+    MANIFEST --> PERM["Permissions"]
+
+    PERM --> DANGER["Dangerous Permissions"]
+
+    APK --> C2["Network Traffic"]
+
+    C2 --> DNS["DNS"]
+    C2 --> HTTP["HTTP/HTTPS"]
+    C2 --> SOCKET["Sockets"]
+```
+
 # **`Awesome`** [APK](https://wikipedia.org/wiki/Apk_(file_format)) (_Android Package_) [Feature](https://wikipedia.org/wiki/Feature_(machine_learning)) Extractor [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
@@ -27,6 +65,55 @@
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 
+```text
+APK Feature Representations
+│
+├── Manifest-Based
+│   ├── Permissions
+│   ├── Intent Filters
+│   ├── Activities
+│   ├── Services
+│   ├── Receivers
+│   └── Providers
+│
+├── Code-Based
+│   ├── DEX Opcodes
+│   ├── API Calls
+│   ├── Reflection
+│   ├── Native Libraries (.so)
+│   ├── Strings
+│   └── Crypto APIs
+│
+├── Graph-Based
+│   ├── Call Graph
+│   ├── CFG
+│   ├── ICFG
+│   ├── DFG
+│   ├── PDG
+│   └── CPG
+│
+├── Sequence-Based
+│   ├── Opcode Sequence
+│   ├── API Sequence
+│   ├── System Call Sequence
+│   ├── Permission Sequence
+│   └── N-Grams
+│
+├── Image-Based
+│   ├── DEX Image
+│   ├── Grayscale Image
+│   ├── RGB Image
+│   └── CNN Feature Maps
+│
+└── Dynamic Features
+    ├── Network
+    ├── File System
+    ├── SMS
+    ├── IPC
+    ├── Runtime Calls
+    └── System Calls
+```
+
 ## Android Reverse Engineering Tools
 - [APKiD](https://github.com/rednaga/APKiD) - Android Application Identifier for Packers, Protectors, Obfuscators and Oddities - PEiD for Android
 - [Apktool](https://apktool.org/) - Apktool is a powerful, open-source command-line tool used for reverse engineering Android applications (_APK files_). It allows users to decode compiled Android resources and Dalvik bytecode (in _.dex_ files) back into their nearly original, human-readable forms, such as XML files for layouts and Smali code (_a low-level assembly-like language for the Dalvik Virtual Machine_).
@@ -44,4 +131,4 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 ### License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
-[🔼 Back to top](#awesome-apk-feature-extractor-)
+[🔼 Back to top](#awesome-apk-android-package-feature-extractor-)
