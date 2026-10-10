@@ -14,7 +14,7 @@ flowchart LR
 
     APK --> DEX["classes.dex"]
 
-    APK --> SO["Native Library (.so)"]
+    APK --> SO["Native Library<br/>(.so)"]
 
     SO --> ELF["ELF Binary"]
 
@@ -30,13 +30,13 @@ flowchart LR
     API --> CONTACTS["Contacts"]
 
     DEX --> REFLECT["Reflection"]
-    DEX --> DEXLOAD["Dynamic Code Loading"]
+    DEX --> DEXLOAD["Dynamic Code<br/>Loading"]
 
     MANIFEST --> PERM["Permissions"]
 
-    PERM --> DANGER["Dangerous Permissions"]
+    PERM --> DANGER["Dangerous<br/>Permissions"]
 
-    APK --> C2["Network Traffic"]
+    APK --> C2["Network<br/>Traffic"]
 
     C2 --> DNS["DNS"]
     C2 --> HTTP["HTTP/HTTPS"]
